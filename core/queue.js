@@ -2,6 +2,7 @@ var kue       = require('kue');
 var jobs      = kue.createQueue();
 var process   = require('./process.js');
 
+kue.app.set('title', 'Emblaze Queue');
 kue.app.listen(3001);
 console.log('Kue listening on port', 3001);
 
