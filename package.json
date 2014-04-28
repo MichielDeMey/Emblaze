@@ -1,0 +1,26 @@
+{
+  "name": "Emblaze-Server",
+  "version": "0.1.0",
+  "description": "Emblaze Server",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.0.0",
+    "body-parser": "^1.0.1",
+    "multiparty": "^3.2.4",
+    "kue": "^0.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MichielDeMey/emblaze-server.git"
+  },
+  "author": "Michiel De Mey",
+  "bugs": {
+    "url": "https://github.com/MichielDeMey/emblaze-server/issues"
+  },
+  "homepage": "https://github.com/MichielDeMey/emblaze-server"
+}
